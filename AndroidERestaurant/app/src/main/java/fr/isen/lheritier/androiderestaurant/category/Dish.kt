@@ -8,4 +8,11 @@ class Dish(
     val images: List<String>,
     val prices: List<Price>
 ) {
+    fun getThumbnailUrl(): String? {
+        return if(images.isNotEmpty() && images[0].isNotEmpty()) {
+            images[0]
+        } else {
+            null
+        }
+    }
 }

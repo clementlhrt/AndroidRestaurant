@@ -1,4 +1,4 @@
-package com.example.isen_2021.category
+package fr.isen.lheritier.androiderestaurant.category
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

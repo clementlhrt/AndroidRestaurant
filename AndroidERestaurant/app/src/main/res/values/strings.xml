@@ -3,4 +3,13 @@
     <string name="entree">Entrées</string>
     <string name="plat">Entrées</string>
     <string name="dessert">Entrées</string>
+    <string name="toast_content">Contenu du toast</string>
+
+    <string name="total">Total</string>
+    <string name="basket_validation">Votre plat a bien été ajouté au panier</string>
+    <string name="basket">Panier</string>
+
+    <string name="order">Passer commande</string>
+    <string name="quantity">Quantité :</string>
+
 </resources>

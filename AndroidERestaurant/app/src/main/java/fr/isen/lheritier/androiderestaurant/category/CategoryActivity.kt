@@ -1,28 +1,17 @@
-package com.example.isen_2021
+package fr.isen.lheritier.androiderestaurant.category
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.LinearLayout
-import androidx.core.content.res.ColorStateListInflaterCompat.inflate
-import androidx.core.content.res.ComplexColorCompat.inflate
-import androidx.core.provider.FontsContractCompat.resetCache
-import fr.isen.lheritier.androiderestaurant.category.R
 import com.android.volley.Request
-import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
-import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.isen_2021.category.CategoryAdapter
-import fr.isen.lheritier.androiderestaurant.category.Dish
 import fr.isen.lheritier.androiderestaurant.HomeActivity
 import fr.isen.lheritier.androiderestaurant.databinding.ActivityCategoryBinding
-import fr.isen.lheritier.androiderestaurant.databinding.ActivityHomeBinding.inflate
-import fr.isen.lheritier.androiderestaurant.category.MenuResult
-import fr.isen.lheritier.androiderestaurant.category.NetworkConstant
 import com.google.gson.GsonBuilder
+import fr.isen.lheritier.androiderestaurant.R
 import org.json.JSONObject
 
 enum class ItemType {

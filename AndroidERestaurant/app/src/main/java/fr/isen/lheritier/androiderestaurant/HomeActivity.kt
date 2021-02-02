@@ -1,8 +1,12 @@
 package fr.isen.lheritier.androiderestaurant
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import fr.isen.lheritier.androiderestaurant.category.CategoryActivity
+import fr.isen.lheritier.androiderestaurant.category.BaseActivity
+import fr.isen.lheritier.androiderestaurant.category.ItemType
+import fr.isen.lheritier.androiderestaurant.databinding.ActivityHomeBinding
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
@@ -10,11 +14,9 @@ import android.view.View.inflate
 import androidx.core.content.res.ColorStateListInflaterCompat.inflate
 import androidx.core.content.res.ComplexColorCompat.inflate
 import androidx.core.graphics.drawable.DrawableCompat.inflate
-import com.example.isen_2021.CategoryActivity
-import com.example.isen_2021.ItemType
-import fr.isen.lheritier.androiderestaurant.databinding.ActivityHomeBinding
 
-class HomeActivity : AppCompatActivity() {
+
+class HomeActivity : BaseActivity() {
 
     private lateinit var binding: ActivityHomeBinding;
     override fun onCreate(savedInstanceState: Bundle?) {
